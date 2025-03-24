@@ -2,7 +2,7 @@ name: Generate RSS XML
 
 on:
   schedule:
-    - cron: '0 * * * *' # Menjalankan setiap jam
+    - cron: '0 1 * * *' # Menjalankan setiap jam
   workflow_dispatch: # Bisa dijalankan manual
 
 jobs:
